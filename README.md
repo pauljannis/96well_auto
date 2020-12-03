@@ -2,7 +2,7 @@
 Automatic analysis of 96-well plate kinetic data
 
 ## Usage
-This is a short programm to automate data extraction and fitting of 96-well plate kinetic measurements. The input file needs to be a tab-delimited sheet with the time points in the first column followed by the well data (*see example_96well_data.txt*). It'll automatically plot the data in 96-well format and extract slopes in the linear range. This behaviour can be addressed with the `--min_r2` and `--min_n` or `--full` parameters, setting the minimal r^2 threshold for extracting the linear range. All slopes are output to a text document by setting the `--output` flag.
+This is a short programm to automate data extraction and fitting of 96-well plate kinetic measurements. The input file needs to be a tab-delimited sheet with the time points in the first column followed by the well data (see example_96well_data.txt). It'll automatically plot the data in 96-well format and extract slopes in the linear range. This behaviour can be addressed with the `--min_r2` and `--min_n` or `--full` parameters, setting the minimal r^2 threshold for extracting the linear range. All slopes are output to a text document by setting the `--output` flag.
 
 ```
 usage: 96well_auto.py [-h] [-s [SINGLE [SINGLE ...]]] [--min_r2 MIN_R2] [--min_n MIN_N] [--break_thresh BREAK_THRESH] [--crop CROP CROP] [--full] [--negative] [-o] [-v] input_file
