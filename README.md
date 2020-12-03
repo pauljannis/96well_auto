@@ -43,5 +43,5 @@ Plotting individual wells to verify linear range:
 Increasing the threshold for a better fit:  
 ```python 96well_auto.py example_96well_data.txt --single B1 C4 --min_r2 0.998```
 
-<img src="./out_example_96well_data_single-0.998.png" width="436" height="274">
+<img src="./out_example_96well_data_single-0998.png" width="436" height="274">
 
